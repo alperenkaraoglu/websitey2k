@@ -53,3 +53,8 @@ cd websitey2k
 python3 -m http.server 8000
 
 # Option 2: Live Server (VS Code Extension)
+---
+
+## Credits & Acknowledgments
+- Original Y2K design and concept by [shutterkif-oss](https://github.com/shutterkif-oss/shutterkif-oss.github.io).
+- Security architecture, WAF rulesets, CSP optimization, and deployment hardening by **Alperen Karaoğlu**.
