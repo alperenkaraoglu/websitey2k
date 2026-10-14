@@ -1,5 +1,5 @@
 /* ============================================================
-   SHUTTERKIF OS — boot sequence, HUD, audio, navigation.
+   ALPEREN KARA PORTFOLIO — boot sequence, HUD, audio, navigation.
    Plain script; psp.js is the module and talks to us via
    window.SK (a tiny shared bus).
    ============================================================ */

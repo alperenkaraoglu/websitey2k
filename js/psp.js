@@ -629,7 +629,14 @@ function init() {
 
     if (railIdx) railIdx.textContent = String(current + 1).padStart(2, '0');
     if (railTot) railTot.textContent = '/' + String(WORKS.length).padStart(2, '0');
-    if (railOpen) railOpen.href = w.link;
+    if (railOpen) {
+      if (w.link && w.link !== '#') {
+        railOpen.href = w.link;
+        railOpen.style.display = '';
+      } else {
+        railOpen.style.display = 'none';
+      }
+    }
     if (railEl && !instant && !reduce) {
       railEl.classList.remove('is-swap');
       void railEl.offsetWidth;

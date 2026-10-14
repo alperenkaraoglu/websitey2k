@@ -1,5 +1,5 @@
 /* ============================================================
-   shutter kif. — black & white, gritty, minimal
+   alperen kara. — black & white, gritty, minimal
    Composed sections sit on a 16:9 stage carrying the exact PSD
    coordinates in percent.
    ============================================================ */
@@ -257,12 +257,10 @@ kbd{font-family:var(--f-vcr);font-size:.8rem;border:1px solid currentColor;opaci
 .el--cards{left:26.67%;top:-3.52%;width:46.67%}
 .lay--contact{left:23.54%;top:40.0%;font-size:3.78cqw}
 .lay--me     {left:64.27%;top:40.0%;font-size:3.78cqw}
-.lay--icons{left:45.94%;top:89.7%;display:flex;align-items:center;gap:1.1%}
-.lay--icons img{width:100%;transition:transform .4s var(--ease)}
-.lay--icons a:first-child{width:3.70cqw}
-.lay--icons a:last-child{width:3.02cqw}
-.lay--icons a:hover img{transform:translateY(-4px)}
-.icons__ig,body.is-invert .icons__ig{filter:none}   /* the IG mark keeps its colour */
+.lay--icons{left:50%;top:89.7%;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:2cqw}
+.lay--icons a{display:flex;align-items:center;justify-content:center;width:3.2cqw;height:3.2cqw;color:inherit;text-decoration:none;transition:transform .3s var(--ease),opacity .3s}
+.lay--icons a svg{width:100%;height:100%;display:block;fill:currentColor}
+.lay--icons a:hover{transform:translateY(-4px);opacity:.75}
 
 /* ============ MOTION ============
    Nothing here is a page transition — each piece drifts at its own rate as you
@@ -308,9 +306,8 @@ kbd{font-family:var(--f-vcr);font-size:.8rem;border:1px solid currentColor;opaci
   .lay--me{left:60%;top:57%;font-size:9vw}
   .el--cards{left:19%;top:34%;width:64%}
   .el--flower{width:130%;left:-15%;top:22%}
-  .lay--icons{left:39%;top:90%;gap:3%}
-  .lay--icons a:first-child{width:9vw}
-  .lay--icons a:last-child{width:7.4vw}
+  .lay--icons{left:50%;top:90%;transform:translateX(-50%);gap:6vw}
+  .lay--icons a{width:8vw;height:8vw}
 }
 
 /* ============ REDUCED MOTION ============ */
@@ -322,5 +319,5 @@ kbd{font-family:var(--f-vcr);font-size:.8rem;border:1px solid currentColor;opaci
   .el.rev,.el.rev.is-shown{opacity:1;filter:invert(var(--el-inv));transition:none}
   .el,.lay{--ty:0 !important}
   [data-rise]{opacity:1;transform:none;filter:none;transition:none}
-  .lay--icons img,.rail__open,.ctl__b::after{transition:none}
+  .lay--icons a,.lay--icons img,.rail__open,.ctl__b::after{transition:none}
 }

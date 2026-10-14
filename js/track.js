@@ -1,5 +1,5 @@
 /* ============================================================
-   SHUTTERKIF OS — tracking overlay.
+   ALPEREN KARA PORTFOLIO — tracking overlay.
 
    A thin grey layer of motion-tracking furniture over each composed section:
    contour trackers locked to the cut-outs (silhouettes come from
