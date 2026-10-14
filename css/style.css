@@ -172,7 +172,7 @@ body.is-invert .boot{--el-inv:1}
 @keyframes spin-cw {to{--spin:360deg}}
 @keyframes spin-ccw{to{--spin:-360deg}}
 .el--dice  {left:32.45%;top:19.26%;width:35.10%}
-.lay--shutter{left:28.33%;top:43.0%;font-size:4cqw;font-style:italic}
+.lay--shutter{left:26.0%;top:43.0%;font-size:4cqw;font-style:italic}
 .lay--kif    {left:59.84%;top:43.0%;font-size:4cqw;font-style:italic}
 
 .cue{position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);z-index:6;padding:.6rem}
